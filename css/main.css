@@ -1,8 +1,24 @@
-.bg-blue {
-  background-color: #3200d1
-}
-
 hr {
   border-color: #85C1E9!important;
 }
 
+#footer {
+  background: url('../img/footer-bg.png') no-repeat center center;
+  background-size: cover;
+}
+
+.text-bottom {
+  color: black;
+}
+
+.email {
+  color: #00018d;
+}
+
+#illustration_link {
+  color: #4172ff;
+}
+
+#design_text {
+  color: #404040;
+}
