@@ -23,11 +23,6 @@ hr {
   color: #404040;
 }
 
-#girl-img {
-  max-width: 75%;
-  float: right;
-}
-
 body {
   background-color: #ffffff;
   padding-top: 0;
@@ -38,6 +33,3 @@ body {
   background-size: 100%;
 }
 
-.nopadding {
-  padding: 0 !important;
-}
