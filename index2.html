@@ -7,18 +7,30 @@
     <!-- Goole fonts -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7CFira+Sans:300,400,400i,600" rel="stylesheet">
     <!-- Material icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/theme.min.css">
+
+    <!-- <link rel="stylesheet" href="css/theme.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
     <title>Ahila Pillai</title>
 </head>
 
 <body>
-    <main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <main id="content">
+
         <!-- Hero -->
-        <div id="hero" class="py-6 px-6">
+        <div class="container py-5">
             <h1 class="display-2 pb-2">Hello!</h1> <br>
 
             <h2 class="pt-5 pb-3">I'm Ahila Pillai</h2>
@@ -30,19 +42,16 @@
             </div>
         </div>
 
-        <div class="text-black">
-            <div class="pb-6 container">
+        <div class="bg-white text-black">
+            <div class="container py-6">
                 <div class="row">
-                    <div class="col-md-4 col-md-push-8">
-                        <img id="girl-img" src="img/girl-upside-down.png">
+                    <div class="col-12 col-md">
+                        <img class="mb-2" src="img/girl-upside-down.png" alt="">
                     </div>
-                    <div class="col-md-8 col-md-pull-4 px-6">
-                        <h2 class="h3 text-left mt-5 mb-4 px-5">My theory of design</h2>
-                        <p id="design_text" class="text-left px-5">
-                            To me, designing is a refuge inside of which I create, express and thrive. Apart from everything my mom cooks, the grandiose of the universe right down to the infinitesimal atoms and anything in between providing food for my thoughts. Images from the past, present, and future, nature’s unabated glory and my own instincts find its way out into developing.
-                        </p>
-                        <p class="text-left px-5">
-                            <a id="illustration_link" href="#illustrations">Check my illustrations</a>
+                    <div class="col-6 col-md">
+                        <h2 class="h3 text-center mb-5">My theory of design</h2>
+                        <p>
+                            To me, designing is a refuge inside of which I create, express and thrive. Apart from everything my mom cooks, the grandiose of the universe right down to the infinitesimal atoms and anything in between providing food for my thoughts. Images from the past, present and future, nature's unabated glory and my own instincts find its way out into designing.
                         </p>
                     </div>
                 </div>
@@ -50,7 +59,7 @@
         </div>
 
         <!-- Projects -->
-        <div id="illustrations" class="container bg-white py-4">
+        <div class="container py-4">
             <ul class="row list-unstyled">
                 <li class="col-md-6 mb-4">
                     <a href="portfolio-1.html">
@@ -113,20 +122,13 @@
     </main>
 
     <!-- Footer -->
-    <footer id="footer">
+    <footer id="footer" class="bg-blue text-light" >
         <div class="container py-6">
-            <div class="text-center text-bottom">
-                Currently accepting enquiries for small <br>and medium sized projects and I'm always<br>
-                available for a cup of coffee<br><br>
-            </div>
-            <div class="text-center email">
-                <b><u>hues.ahila@gmail.com</u></b>
+            <div class="text-center py-6">
+                Currently accepting enquiries for small <br>and medium sized projects. <br><b><u>hues.ahila@gmail.com</u></b>
             </div>
         </div>
-        <div class="py-6">
-            <div class="py-6"> </div>
-        </div>
-        <div class="container pb-6">
+        <div class="container pb-4">
             <hr>
             <div class="row">
                 <div class="col-12 col-md small">&copy; 2019 - AhilaPillai. Digital Designer</div>

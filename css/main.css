@@ -22,3 +22,20 @@ hr {
 #design_text {
   color: #404040;
 }
+
+#girl-img {
+  /*background: url('../img/girl-upside-down.png') no-repeat right top;*/
+  /*background-size: cover;*/
+  max-width: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  padding-top: 0;
+}
+
+#hero {
+  background-color: #000000;
+  background-size: 100%;
+}
+
