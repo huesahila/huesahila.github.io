@@ -7,7 +7,7 @@ hr {
   background-size: cover;
 }
 
-.text-bottom {
+.text-enquiry {
   color: black;
 }
 
@@ -19,14 +19,13 @@ hr {
   color: #4172ff;
 }
 
-#design_text {
+#design_theory_text {
   color: #404040;
 }
 
 #girl-img {
-  /*background: url('../img/girl-upside-down.png') no-repeat right top;*/
-  /*background-size: cover;*/
-  max-width: 100%;
+  max-width: 75%;
+  float: right;
 }
 
 body {
@@ -39,3 +38,7 @@ body {
   background-size: 100%;
 }
 
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
