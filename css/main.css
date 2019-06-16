@@ -2,11 +2,6 @@ hr {
   border-color: #85C1E9!important;
 }
 
-#footer {
-  background: url('../img/footer-bg.png') no-repeat center center;
-  background-size: cover;
-}
-
 .text-enquiry {
   color: black;
 }
@@ -29,6 +24,7 @@ body {
 }
 
 #hero {
+  display: table;
   background-color: #000000;
   background-size: 100%;
 }
@@ -55,4 +51,35 @@ h2 span {
 .img-overlay:hover {
     -webkit-transform:scale(1.2);
     transform:scale(1.2);
+}
+
+#footer {
+  background: url('../img/footer-bg.png') no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+#links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.relative-pos {
+  position: relative;
+}
+
+#design_theory {
+  display: table;
+  line-height: 2.0;
+}
+
+.center-y {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fit-screen {
+  height: 100vh!important;
 }
